@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+	<section id="topBar">
+    <h2 class="hidden">TopBar</h2>
+    </section><!--end topBar-->
+    <div id="siteContainer">
+        <header id="mainHeader">
+            <h2 class="hidden">Header</h2>
+            <div id="logo">
+                <a href="index.html"><img src="images/logo_2.svg" width="150" height="150" alt="logo" ></a>
+            </div>
+            <nav id="mainNav">
+            <h2 class="hidden">Navigation</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="dishes.html">Dishes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </nav><!--end mainNav-->
+        </header><!--end mainHeader-->
+        <div id="mainContent">
+            <h1>Contact</h1>
+            <section class="mainContact">
+
+            <div class="pageDescription"><h2>If you have questions about our works, please don't hesitate to contact us for more information</h2></div>
+                <form id="contactForm" action="form.php" method="post">
+                    <h2 class="hidden">Contact Form</h2>
+                    <label for="lastname">Last Name</label>
+                    <input type="text" required id="lastname" size="30" placeholder="Enter Your Last Name">
+
+                    <label for="firstname">First Name</label>
+                    <input type="text" required id="firstname" size="30" placeholder="Enter Your First Name">
+
+                    <label for="emailAdd">Email</label>
+                    <input type="email" required id="emailAdd" size="30" placeholder="Enter your Email">
+
+                    <label for="messages">Messages</label>
+                    <textarea name="messages" id="messages" required cols="50" rows="8"></textarea>
+                   
+                    <input id="submit" type="submit" value="Submit">
+                </form>
+            </section>
+        </div>
+        <footer id="mainFooter">
+        <div id="leftFooter">
+                <h2 class="hidden">Footer</h2>
+            <div id="footerNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="dishes.html">Dishes</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div><!--end FooterNav-->
+            <div id="socialMedia">
+                <h2 class="hidden">Social Media</h2>
+                <ul id="iconNav">
+                    <li id="facebook">
+                      <a href="http://www.facebook.com">
+                        <img src="images/facebook.svg" alt="facebook">
+                      </a>
+                    </li>
+                    <li id="twitter">
+                      <a href="http://www.twitter.com">
+                        <img src="images/twitter.svg" alt="twitter">
+                      </a>
+                    </li>
+                    <li id="youtube">
+                      <a href="http://www.youtube.com">
+                        <img src="images/youtube.svg" alt="youtube">
+                      </a>
+                    </li>
+                    <li id="instagram">
+                      <a href="http://www.instagram.com">
+                        <img src="images/instagram.svg" alt="instagram">
+                      </a>
+                    </li>
+                </ul>
+            </div>
+        </div>     
+        <div id="copyRight"><p>© 2018 ngon.All Right Reserved <br>
+            Developed By Lan and David</p>
+        </div><!--end Copyright-->
+        </footer><!--end mainFooter-->
+
+    </div><!--end siteContainer-->
+<script src="js/main.js"></script>    
+</body>
+</html>
