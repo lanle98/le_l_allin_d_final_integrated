@@ -287,12 +287,13 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 /*DISHES PAGE*/
 
 
-#mainContent h1
+.pageName
 {
 	font-size: 80px;
+	color: #c83333;
 }
 
-.pageDescription h2
+.pageDescription
 {
 	font-size: 25px;
 	text-align: center;
@@ -319,9 +320,9 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 }
 
-#contentCon h2 
+#contentCon h3 
 {
-	/*display: none;*/
+
 	font-size: 75px;
 	margin: 0;
 
